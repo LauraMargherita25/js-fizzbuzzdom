@@ -3,3 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 1000px;
+
+    margin: 0 auto;
+
+    background-color: blueviolet;
+
+    text-align: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+
+    background-color: crimson;
+}

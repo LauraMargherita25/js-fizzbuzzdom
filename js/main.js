@@ -1,4 +1,5 @@
+let itemContainer = document.querySelector(".item_container");
+
 for (let i = 0; i <= 100; i++) {
-    document.writeln(i)
-    
+    itemContainer.innerHTML += `<div class="box">${i}</div>`
 }
