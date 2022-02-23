@@ -14,9 +14,31 @@
     text-align: center;
 }
 
+.item_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .box{
     width: 100px;
     height: 100px;
 
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
     background-color: crimson;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.blue{
+    background-color: aliceblue;
 }
